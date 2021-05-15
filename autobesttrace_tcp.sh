@@ -25,6 +25,6 @@ ip_addr=(北京电信 深圳电信 北京移动 杭州电信 宁波联通 杭州
 for i in {0..15}
 do
 	echo ${ip_addr[$i]}
-	./besttrace -q 1 ${ip_list[$i]}
+	./besttrace -q1 -T -g cn ${ip_list[$i]}
 	next
 done
