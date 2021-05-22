@@ -13,9 +13,13 @@ besttrace: TCP回程
     
     wget --no-check-certificate https://raw.githubusercontent.com/urnuts/scripts/main/tcptrace.sh
     chmod +x tcptrace.sh && ./tcptrace.sh
-    
     测试具体ip:./besttrace -q1 -T -g cn ip
-    
+
+
+    wget -N --no-check-certificate -q -O besttrace.sh "https://raw.githubusercontent.com/cchhuuaann1/besttrace/main/besttrace.sh" && chmod +x besttrace.sh && bash besttrace.sh
+
+
+
 
 CloudFlare设置Dynamic DNS(DDNS)获取动态IP：
 二级域名接入CF,添加ddns到任意ip 如1.1.1.1:
