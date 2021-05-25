@@ -31,7 +31,7 @@
     删除文件夹及对应内容：rm -rf -/root/netflix-proxy
 
 
-三.先先于第一步修改默认dns:
+三.先于第一步修改默认dns:
 
     sudo systemctl stop systemd-resolved
     sudo systemctl disable systemd-resolved
