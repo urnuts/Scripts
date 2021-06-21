@@ -1,7 +1,7 @@
     ******下载伪装网站及部署
     //    rm -rf /usr/share/nginx/html/*
     //    cd /usr/share/nginx/html/
-    //    wget https://raw.githubusercontent.com/urnuts/scripts/main/web/web.zip
+    //    wget https://raw.githubusercontent.com/urnuts/scripts/main/web/nextcloud.zip
     //    unzip web.zip
     //    systemctl restart nginx
 
