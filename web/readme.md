@@ -2,7 +2,7 @@
     //    rm -rf /usr/share/nginx/html/*
     //    cd /usr/share/nginx/html/
     //    wget https://raw.githubusercontent.com/urnuts/scripts/main/web/nextcloud.zip
-    //    unzip web.zip
+    //    unzip nextcloud.zip
     //    systemctl restart nginx
 
 
