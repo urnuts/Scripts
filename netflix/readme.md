@@ -1,3 +1,9 @@
+
+ zero长期使用 ： qx可直接订阅模板
+ qxt.yml     ： clash的部分配置，可在线转换为Clash和QX配置
+ 网易云       ： 音乐解锁节点
+  
+ 
   
   
   一. 安装netflix-proxy
