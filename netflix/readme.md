@@ -1,7 +1,7 @@
 
- zero长期使用 ： qx可直接订阅模板                              【仅链接list】
- qxt.yml     ： clash的部分配置，可在线转换为Clash和QX配置      【proxy】
- 网易云       ： 音乐解锁节点                                  【proxy】
+    zero长期使用 ： qx可直接订阅模板                              【仅链接list】
+    raw.yml / clash98.yamlclash的部分配置： 可在线转换为Clash和QX配置; 可从中提取QX订阅链接
+
   
  
   
