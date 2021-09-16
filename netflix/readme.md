@@ -1,5 +1,4 @@
-  
-  一. 安装netflix-proxy
+    一. 安装netflix-proxy
     
     ubuntu 18/20，无需更新内核，直接安装成功；
     多人使用时,建议使用BBR_CAKE；
