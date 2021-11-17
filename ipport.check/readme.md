@@ -3,7 +3,7 @@
     1. 按照IP port格式输入：
       1.1.1.1 443
       2.2.2.2 8888
-    2. 把 ip-ports.txt和 .sh脚本放到root下，
+    2. 把 ip-ports.txt【文件-换行编码-Ubix(LF),或者直接touch】和 .sh脚本放到root下，
     3. 运行：chmod a+x /root/ncports.sh && ./ncports.sh
 
 
