@@ -1,5 +1,4 @@
-    批量检测IP:port连通性
-
+   批量检测IP:port连通性
 
     1. 按照IP port格式输入：
       1.1.1.1 443
@@ -19,7 +18,7 @@
 或者命令端操作：
 
     1).创建ip文件： touch /root/ip-ports.txt
-    2). 导入ip:port
+    2).把要检测的ip端口导入ip-ports.txt：
     
       echo -e "global
        1.1.1.1 443
@@ -27,9 +26,8 @@
        2.2.2.2 443 > /root/ip-ports.txt
     
     3). 创建命令文件：touch /root/ncports.sh
-    输入命令：
-    
-    echo -e "global
+        把命令导入/root/ncports.sh：
+        echo -e "global
       #!/bin/bash  
       #检测服务器端口是否开放，成功会返回0值显示ok，失败会返回1值显示fail  
            cat /root/ip-ports.txt | while read line  
