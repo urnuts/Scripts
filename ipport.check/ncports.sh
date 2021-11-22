@@ -4,7 +4,7 @@
      
     cat /root/ip-ports.txt | while read line  
     do  
-      nc -w 10 -z $line > /dev/null 2>&1  
+      nc -w 3 -z $line > /dev/null 2>&1  
       if [ $? -eq 0 ]  
       then  
         echo $line:ok  
