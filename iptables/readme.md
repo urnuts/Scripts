@@ -50,7 +50,8 @@
     # bits.
     #
     # By default this script does nothing.
- 
+    sysctl -p
+    
     exit 0
     EOF
 
