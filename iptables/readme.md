@@ -56,6 +56,6 @@ systemctl start rc-local.service
 systemctl status rc-local.service
 
 返回Active:active信息，则成功。
-
+ 
 最后我们就可以在/etc/rc.local里，添加开机的自启命令什么的了。记住添加在exit 0之前。
 
