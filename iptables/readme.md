@@ -1,9 +1,6 @@
     
     
-     wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/natcfg.sh && bash natcfg.sh
-sysctl -p
-    
-    
+    wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/natcfg.sh && bash natcfg.sh
     sysctl -p
     
     
@@ -36,6 +33,7 @@ sysctl -p
     WantedBy=multi-user.target
     EOF
 
+
     2、新建rc-local文件
 
     #以下为一整条命令，一起复制运行
@@ -56,7 +54,9 @@ sysctl -p
     exit 0
     EOF
 
+
     3、添加权限并设置开机自启
+    
     chmod +x /etc/rc.local
     systemctl enable rc-local
     systemctl start rc-local.service
