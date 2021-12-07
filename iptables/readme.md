@@ -3,16 +3,9 @@
     wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/natcfg.sh && bash natcfg.sh
     sysctl -p
     
-    
-    
-    
     Debian 9/Ubuntu 17+添加rc.local开机自启的方法：
     https://www.moerats.com/archives/623/
     
-     
-    
-    方法
-
     1、添加rc-local.service
 
     #以下为一整条命令，一起复制运行
@@ -36,7 +29,7 @@
 
     2、新建rc-local文件
 
-    #以下为一整条命令，一起复制运行
+#以下为一整条命令，一起复制运行
     cat > /etc/rc.local <<EOF
     #!/bin/sh
     #
