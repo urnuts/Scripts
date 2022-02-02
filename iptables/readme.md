@@ -44,8 +44,8 @@
     #
     # By default this script does nothing.
     sysctl -p
-    docker restart 2000477cce27
-    systemctl restart qemu-guest-agent
+    #docker restart 2000477cce27
+    #VMM专用# systemctl restart qemu-guest-agent
     exit 0
     EOF
 
