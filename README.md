@@ -2,10 +2,10 @@
 
 **更新内核5.10并开启bbr_fq：**
 ```
-wget --no-check-certificate https://raw.githubusercontent.com/urnuts/scripts/main/tcp.sh && chmod +x tcp.sh && ./tcp.sh
+wget --no-check-certificate https://raw.githubusercontent.com/urnuts/scripts/main/tcp.sh
+chmod +x tcp.sh && ./tcp.sh
 ```
 升级最新内核：```wget -O tcp.sh "https://git.io/coolspeeda/tcp.sh" && chmod +x tcp.sh && ./tcp.sh```
-
 
 besttrace: TCP回程
 ```
