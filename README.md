@@ -1,6 +1,7 @@
 **常用脚本汇总：**
 
-<code>**更新内核5.10并开启bbr_fq：**```
+<code>**更新内核5.10并开启bbr_fq：**
+   ```
 wget --no-check-certificate https://raw.githubusercontent.com/urnuts/scripts/main/tcp.sh
 chmod +x tcp.sh && ./tcp.sh
 ```
