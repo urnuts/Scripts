@@ -16,7 +16,6 @@ chmod +x tcptrace.sh && ./tcptrace.sh
 ```
 ./besttrace -q1 -T -g cn ip
 ```
-
 wget -N --no-check-certificate -q -O besttrace.sh "https://raw.githubusercontent.com/cchhuuaann1/besttrace/main/besttrace.sh" && chmod +x besttrace.sh && bash besttrace.sh
 
 
@@ -26,11 +25,14 @@ wget -N --no-check-certificate -q -O besttrace.sh "https://raw.githubusercontent
 二级域名接入CF,添加ddns到任意ip 如1.1.1.1:
 
 1 .CloudFlare解析ddns.example.com至任意ip,如1.1.1.1
+   
 2 .[前往复制Global API](https://www.cloudflare.com/a/profile)
+   
 3 .获取脚本：
    ```
    curl https://raw.githubusercontent.com/urnuts/scripts/main/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x ./cf-v4-ddns.sh
    ```
+   
 4 .编辑/root/cf-v4-ddns.sh,
    在下面4处手动填入自己的信息：Global API,cf账号邮箱，二级域名，ddns.二级域名
    ```
@@ -50,6 +52,7 @@ sed -i 's/CFUSER=/CFUSER=user@example.com/g' /root/cf-v4-ddns.sh
 sed -i 's/CFZONE_NAME=/CFZONE_NAME=example.com/g' /root/cf-v4-ddns.sh
 sed -i 's/CFRECORD_NAME=/CFRECORD_NAME=ddns.example.com/g' /root/cf-v4-ddns.sh
 ```
+   
 5 .运行：```./cf-v4-ddns.sh```
 返回本机实际ip；进入cf查看，ddns.example.com对应的1.1.1.1已更新为实际ip
 
