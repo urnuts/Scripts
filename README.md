@@ -22,7 +22,7 @@ wget -N --no-check-certificate -q -O besttrace.sh "https://raw.githubusercontent
 
 
 
-CloudFlare设置Dynamic DNS(DDNS)获取动态IP：
+**CloudFlare设置Dynamic DNS(DDNS)获取动态IP：**
 二级域名接入CF,添加ddns到任意ip 如1.1.1.1:
 
 1）.CloudFlare解析ddns.example.com至任意ip,如1.1.1.1
