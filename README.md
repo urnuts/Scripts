@@ -1,7 +1,6 @@
 **常用脚本汇总：**
 
-<code>**更新内核5.10并开启bbr_fq：**
-```
+<code>**更新内核5.10并开启bbr_fq：**```
 wget --no-check-certificate https://raw.githubusercontent.com/urnuts/scripts/main/tcp.sh
 chmod +x tcp.sh && ./tcp.sh
 ```
@@ -26,7 +25,7 @@ wget -N --no-check-certificate -q -O besttrace.sh "https://raw.githubusercontent
 二级域名接入CF,添加ddns到任意ip 如1.1.1.1:
 
 1）.CloudFlare解析ddns.example.com至任意ip,如1.1.1.1
-2）.前往https://www.cloudflare.com/a/profile，复制Global API
+2）.[前往复制Global API](https://www.cloudflare.com/a/profile)
 3）.获取脚本：
    ```
    curl https://raw.githubusercontent.com/urnuts/scripts/main/cf-v4-ddns.sh > /root/cf-v4-ddns.sh && chmod +x ./cf-v4-ddns.sh
