@@ -16,8 +16,10 @@ chmod +x tcptrace.sh && ./tcptrace.sh
 ```
 ./besttrace -q1 -T -g cn ip
 ```
+   
+   ```
 wget -N --no-check-certificate -q -O besttrace.sh "https://raw.githubusercontent.com/cchhuuaann1/besttrace/main/besttrace.sh" && chmod +x besttrace.sh && bash besttrace.sh
-
+```
 
 
 
