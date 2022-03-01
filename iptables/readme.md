@@ -1,11 +1,7 @@
     新版：
     https://github.com/arloor/nftables-nat-rust
     
-    
-    
-    
-    
-    
+
     
     旧版参考如下：
     wget --no-check-certificate -qO natcfg.sh https://raw.githubusercontent.com/arloor/iptablesUtils/master/natcfg.sh && bash natcfg.sh
