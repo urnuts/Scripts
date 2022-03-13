@@ -1,6 +1,7 @@
     新版：
     https://github.com/arloor/nftables-nat-rust
-    
+    systemctl restart nat
+    systemctl status nat
 
     
     旧版参考如下：
