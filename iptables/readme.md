@@ -49,7 +49,11 @@
     #
     # By default this script does nothing.
     sysctl -p
-    #docker restart 2000477cce27
+    /etc/init.d/haproxy restart
+    香港轻量129：docker restart dedfb890b5af
+    香港轻量43：docker restart 79183b10041a
+    绿云HK：docker restart 10e9aaf5aa86
+    绿云JP：docker restart 2000477cce27
     #VMM专用# systemctl restart qemu-guest-agent
     exit 0
     EOF
