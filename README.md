@@ -59,9 +59,9 @@ sed -i 's/CFRECORD_NAME=/CFRECORD_NAME=ddns.example.com/g' /root/cf-v4-ddns.sh
 返回本机实际ip；进入cf查看，ddns.example.com对应的1.1.1.1已更新为实际ip
 
 6 .添加crontab定时/重启执行任务：
-- 设置定时任务为120s：```*/2 * * * *  /usr/local/bin/cf-ddns.sh >/dev/null 2>&1```
-- 设置自启动：```@reboot /root/cf-v4-ddns.sh```
+  设置定时任务为120s：```*/2 * * * *  /usr/local/bin/cf-ddns.sh >/dev/null 2>&1```
+  设置自启动：```@reboot /root/cf-v4-ddns.sh```
 
-- 重启Crontab：```/etc/init.d/cron restart```   
-- 查看crontab定时执行任务列表：```crontab -l```   
-- 添加crontab定时执行任务：```crontab -e```
+  重启Crontab：```/etc/init.d/cron restart```   
+  查看crontab定时执行任务列表：```crontab -l```   
+  添加crontab定时执行任务：```crontab -e```
